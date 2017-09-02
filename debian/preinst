@@ -1,0 +1,15 @@
+#!/bin/sh
+
+set -e
+
+case "$1" in
+  install)
+    echo 'QT_QPA_PLATFORMTHEME=gtk2'>>/etc/environment  ;;
+  *)
+    :
+  ;;
+esac
+
+#DEBHELPER#
+
+exit 0
