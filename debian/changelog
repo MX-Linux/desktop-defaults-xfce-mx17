@@ -1,3 +1,9 @@
+desktop-defaults-xfce-mx17 (0.7.17.0.5) mx; urgency=medium
+
+  * small adjustments for alpha 2
+
+ -- dolphin oracle <dolphinoracle@gmail.com>  Mon, 18 Sep 2017 19:40:35 -0400
+
 desktop-defaults-xfce-mx17 (0.7.17.0.4) mx; urgency=medium
 
   * fix to preinst script (kmathern)
