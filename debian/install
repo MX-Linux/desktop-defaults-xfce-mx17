@@ -2,7 +2,6 @@ skel/.[a-zA-Z]* 		etc/skel
 root/.[a-zA-Z]*            	root
 icons/*                    	usr/local/share/icons
 Printers-(CUPS).desktop    	usr/share/applications
-Window_Buttons.desktop     	usr/share/applications
 gtk-2.0/*                  	etc/gtk-2.0
 52-force-root-for-admin-auth.conf 	etc/polkit-1/localauthority.conf.d
 X11/*                      	etc/X11

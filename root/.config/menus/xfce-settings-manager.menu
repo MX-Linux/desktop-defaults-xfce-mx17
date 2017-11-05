@@ -114,7 +114,6 @@
                 <Filename>software-properties-gtk.desktop</Filename>
                 <Filename>xscreensaver-properties.desktop</Filename>
                 <Filename>xfce-settings-manager.desktop</Filename>
-                <Filename>WindowsButtons.desktop</Filename>
               </Or>
             </Not>
           </And>
