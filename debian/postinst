@@ -1,0 +1,9 @@
+#! /bin/sh
+
+set -e
+
+if [ -x /etc/init.d/umountnfs-alternative.sh ]; then
+  update-rc.d umountnfs-alternative.sh defaults >/dev/null 2>&1
+fi
+
+exit 0

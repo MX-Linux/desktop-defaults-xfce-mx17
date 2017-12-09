@@ -1,0 +1,43 @@
+#!/bin/bash
+
+#localize Thunar custom actions for available translations
+
+#Pull locale info from F2 Live Boot Menu Setup
+
+LNG=$(cat /etc/default/locale|grep LANG|cut -d_ -f1|cut -d= -f2)
+echo $LNG
+
+
+
+
+localize_thunar_custom_actions()
+{
+#copy uca.xml file into appropriate location
+
+if [ -e /usr/share/desktop-defaults-mx/uca_$LNG.xml ]; then
+  cp /usr/share/desktop-defaults-mx/uca_$LNG.xml /etc/skel/.config/Thunar/uca.xml
+  cp /usr/share/desktop-defaults-mx/uca_$LNG.xml /home/demo/.config/Thunar/uca.xml
+  cp /usr/share/desktop-defaults-mx/uca_$LNG.xml /root/.config/Thunar/uca.xml ;
+else
+  :
+fi
+
+}
+
+#look for a check file and if present exit, otherwise create check file and then parse language
+
+
+main()
+{
+echo $LNG
+if [ -e /etc/thunarCA_localize.chk ]; then
+  echo "thunar custom actions already localized"
+  :
+else
+echo "localizing thunar custom actions"
+  touch /etc/thunarCA_localize.chk
+  localize_thunar_custom_actions
+fi
+}
+
+main

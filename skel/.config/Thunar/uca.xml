@@ -19,7 +19,7 @@
    <name>Open Terminal Here</name>
    <unique-id>1388590880939619-1</unique-id>
    <command>exo-open --working-directory %f --launch TerminalEmulator</command>
-   <description>Example for a custom action</description>
+   <description>Launch terminal emulator here</description>
    <patterns>*</patterns>
    <startup-notify/>
    <directories/>
@@ -91,7 +91,7 @@
    <name>Create symlink</name>
    <unique-id>1394124450909421-1</unique-id>
    <command>ln -s %f &quot;%n (symlink)&quot;</command>
-   <description>Softlink bewteen two files or directories</description>
+   <description>Softlink between two files or directories</description>
    <patterns>*</patterns>
    <startup-notify/>
    <directories/>

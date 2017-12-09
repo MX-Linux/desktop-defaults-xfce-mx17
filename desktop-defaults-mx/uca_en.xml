@@ -70,7 +70,7 @@
    <icon></icon>
    <name>Edit as Root</name>
    <unique-id>1389150009142611-4</unique-id>
-   <command>gksu leafpad %f</command>
+   <command>gksu featherpad %f</command>
    <description>Make administrative changes to text files</description>
    <patterns>*</patterns>
    <other-files/>

@@ -3,13 +3,19 @@
           <Menu>
             <Name>Applications</Name>
             <Menu>
-              <Name>Settings</Name>
+              <Name>System</Name>
               <Exclude>
                 <Category>MX-Software</Category>
-		<Category>MX-Maintenance</Category>
-		<Category>MX-Setup</Category>
-		<Category>MX-Live</Category>
-		<Category>MX-Utilities</Category>
+				<Category>MX-Maintenance</Category>
+				<Category>MX-Setup</Category>
+				<Category>MX-Live</Category>
+				<Category>MX-Utilities</Category>
+              </Exclude>
+            </Menu>
+            <Menu>
+              <Name>Education</Name>
+              <Exclude>
+                <Filename>libreoffice-math.desktop</Filename>
               </Exclude>
             </Menu>
           </Menu>

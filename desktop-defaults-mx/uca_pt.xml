@@ -2,10 +2,10 @@
 <actions>
 <action>
    <icon></icon>
-   <name>Run command ...</name>
+   <name>Executar comando ...</name>
    <unique-id>1391443541044100-3</unique-id>
    <command>xfce4-appfinder --collapsed</command>
-   <description>Launch a program</description>
+   <description>Abre um programa</description>
    <patterns>*</patterns>
    <directories/>
    <audio-files/>
@@ -16,20 +16,20 @@
 </action>
 <action>
    <icon>utilities-terminal</icon>
-   <name>Open Terminal Here</name>
+   <name>Abrir Terminal aqui</name>
    <unique-id>1388590880939619-1</unique-id>
    <command>exo-open --working-directory %f --launch TerminalEmulator</command>
-   <description>Launch terminal emulator here</description>
+   <description>Abre um emulador de terminal aqui</description>
    <patterns>*</patterns>
    <startup-notify/>
    <directories/>
 </action>
 <action>
    <icon></icon>
-   <name>Open root Thunar here</name>
+   <name>Abrir Thunar de raíz aqui</name>
    <unique-id>1391443434179984-1</unique-id>
    <command>gksu thunar %f</command>
-   <description>Open this folder with administrative rights</description>
+   <description>Abre esta pasta com permissões de administrador</description>
    <patterns>*</patterns>
    <directories/>
    <audio-files/>
@@ -40,10 +40,10 @@
 </action>
 <action>
    <icon></icon>
-   <name>Ownership to Root</name>
+   <name>Mudar para administrador (Root)</name>
    <unique-id>1388696949105908-1</unique-id>
    <command>gksu &quot;chown -R root:root %F&quot;</command>
-   <description>Change to administrative permissions </description>
+   <description>Muda para permissões de administrador</description>
    <patterns>*</patterns>
    <directories/>
    <audio-files/>
@@ -54,10 +54,10 @@
 </action>
 <action>
    <icon></icon>
-   <name>Ownership to user</name>
+   <name>Mudar para utilizador normal</name>
    <unique-id>1388702559256309-5</unique-id>
    <command>gksu &quot;chown -R $USER:$USER %F&quot;</command>
-   <description>Removes use restrictions</description>
+   <description>Remove as restrições de utilização</description>
    <patterns>*</patterns>
    <directories/>
    <audio-files/>
@@ -68,30 +68,30 @@
 </action>
 <action>
    <icon></icon>
-   <name>Edit as Root</name>
+   <name>Editar como administrador (Root)</name>
    <unique-id>1389150009142611-4</unique-id>
-   <command>gksu leafpad %f</command>
-   <description>Make administrative changes to text files</description>
+   <command>gksu featherpad %f</command>
+   <description>Permite fazer alterações administrativas a ficheiros de texto</description>
    <patterns>*</patterns>
    <other-files/>
    <text-files/>
 </action>
 <action>
    <icon></icon>
-   <name>Find files here</name>
+   <name>Procurar ficheiros aqui</name>
    <unique-id>1391015829778456-1</unique-id>
    <command>catfish --path=%f</command>
-   <description>Search current folder</description>
+   <description>Pesquisa na pasta em uso</description>
    <patterns>*</patterns>
    <directories/>
    <text-files/>
 </action>
 <action>
    <icon></icon>
-   <name>Create symlink</name>
+   <name>Criar atalho (symlink)</name>
    <unique-id>1394124450909421-1</unique-id>
    <command>ln -s %f &quot;%n (symlink)&quot;</command>
-   <description>Softlink between two files or directories</description>
+   <description>Cria um atalho entre dois ficheiros ou directórios</description>
    <patterns>*</patterns>
    <startup-notify/>
    <directories/>
@@ -100,47 +100,47 @@
 </action>
 <action>
    <icon>folder-publicshare</icon>
-   <name>Share a folder on your network</name>
+   <name>Partilhar uma pasta na rede</name>
    <unique-id>1399025775400525-1</unique-id>
    <command>gksu system-config-samba %d</command>
-   <description>Configure file sharing</description>
+   <description>Configurar a partilha de ficheiros</description>
    <patterns>*</patterns>
    <directories/>
 </action>
 <action>
    <icon></icon>
-   <name>Compute md5sum</name>
+   <name>Computar a md5sum</name>
    <unique-id>1426501025005582-4</unique-id>
    <command>yad --info --title=&quot;Check md5sum for %n&quot; --text=&quot;$(md5sum %n)&quot; | yad --width=350 --height=250 --progress --percentage=&quot;50&quot; --auto-kill --auto-close --title=&quot;Checksum utility&quot; --text=&quot;Calculating md5sum for %n&quot;</command>
-   <description>Display checksum of ISO</description>
+   <description>Exibe a soma de controlo (checksum) da ISO</description>
    <patterns>*.iso;*.ISO</patterns>
    <other-files/>
 </action>
 <action>
    <icon></icon>
-   <name>Check data integrity</name>
+   <name>Verificar a integridade dos dados</name>
    <unique-id>1426501047462724-5</unique-id>
    <command>yad --info --title=&quot;Check md5 for %n&quot; --text=&quot;$(md5sum -c %f)&quot; | yad --progress --percentage=&quot;50&quot; --auto-kill --auto-close --title=&quot;Checksum utility&quot; --text=&quot;Checking md5sum for %n&quot;</command>
-   <description>Compare ISO and md5sum files</description>
+   <description>Calcula a md5sum da ISO e compara-a com a md5sum constante no ficheiro md5</description>
    <patterns>*.md5;*.md5sum</patterns>
    <other-files/>
    <text-files/>
 </action>
 <action>
 	<icon></icon>
-	<name>Make Startup Sound</name>
+	<name>Reproduzir Som de Iniciação</name>
 	<unique-id>1447629663342880-3</unique-id>
 	<command>echo %f &gt;~/.config/startupsound.conf</command>
-	<description>Make selected Startup Sound</description>
+	<description>Reproduz o Som de Iniciação seleccionado</description>
 	<patterns>*</patterns>
 	<audio-files/>
 </action>
 <action>
 	<icon></icon>
-	<name>Make Logout Sound</name>
+	<name>Reproduzir Som de Saída</name>
 	<unique-id>1447629663342880-4</unique-id>
 	<command>echo %f &gt;~/.config/logoutsound.conf</command>
-	<description>Make selected Logout Sound</description>
+	<description>Reproduz o Som de Saída seleccionado</description>
 	<patterns>*</patterns>
 	<audio-files/>
 </action>
