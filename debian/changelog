@@ -1,3 +1,18 @@
+desktop-defaults-xfce-mx17 (0.7.17.4.2) mx; urgency=medium
+
+  * adjust Alt+F1 help function
+
+
+ -- dolphin oracle <dolphin@littlebyte>  Wed, 13 Dec 2017 18:55:23 -0500
+
+desktop-defaults-xfce-mx17 (0.7.17.4.1) mx; urgency=medium
+
+  * revised for RC1
+  * added nomacs to screenshooter settings
+  * revised theme for notifications 
+
+ -- dolphin oracle <dolphinoracle@gmail.com>  Sat, 09 Dec 2017 13:16:15 -0500
+
 desktop-defaults-xfce-mx17 (0.7.17.4.0) mx; urgency=medium
 
   * rc/final 
