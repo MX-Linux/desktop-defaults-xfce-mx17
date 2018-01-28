@@ -12,14 +12,16 @@ echo $LNG
 
 localize_thunar_custom_actions()
 {
-#copy uca.xml file into appropriate location
+#copy uca.xml file into appropriate location, use $LNG if exists, or uca_en (english) by default
 
 if [ -e /usr/share/desktop-defaults-mx/uca_$LNG.xml ]; then
   cp /usr/share/desktop-defaults-mx/uca_$LNG.xml /etc/skel/.config/Thunar/uca.xml
   cp /usr/share/desktop-defaults-mx/uca_$LNG.xml /home/demo/.config/Thunar/uca.xml
   cp /usr/share/desktop-defaults-mx/uca_$LNG.xml /root/.config/Thunar/uca.xml ;
 else
-  :
+  cp /usr/share/desktop-defaults-mx/uca_en.xml /etc/skel/.config/Thunar/uca.xml
+  cp /usr/share/desktop-defaults-mx/uca_en.xml /home/demo/.config/Thunar/uca.xml
+  cp /usr/share/desktop-defaults-mx/uca_en.xml /root/.config/Thunar/uca.xml 
 fi
 
 }

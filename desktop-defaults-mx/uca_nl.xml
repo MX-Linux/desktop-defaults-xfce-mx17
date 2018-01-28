@@ -28,7 +28,7 @@
    <icon></icon>
    <name>Open root Thunar hier</name>
    <unique-id>1391443434179984-1</unique-id>
-   <command>gksu thunar %f</command>
+   <command>gnome-keyring-daemon -r -d;gksu thunar %f</command>
    <description>Open deze map met administratieve rechten</description>
    <patterns>*</patterns>
    <directories/>
@@ -42,7 +42,7 @@
    <icon></icon>
    <name>Eigenaarschap naar Root</name>
    <unique-id>1388696949105908-1</unique-id>
-   <command>gksu &quot;chown -R root:root %F&quot;</command>
+   <command>gnome-keyring-daemon -r -d;gksu &quot;chown -R root:root %F&quot;</command>
    <description>Verander naar administratieve permissies</description>
    <patterns>*</patterns>
    <directories/>
@@ -56,7 +56,7 @@
    <icon></icon>
    <name>Eigenaarschap naar gebruiker</name>
    <unique-id>1388702559256309-5</unique-id>
-   <command>gksu &quot;chown -R $USER:$USER %F&quot;</command>
+   <command>gnome-keyring-daemon -r -d;gksu &quot;chown -R $USER:$USER %F&quot;</command>
    <description>Verwijdert gebruikersrestricties</description>
    <patterns>*</patterns>
    <directories/>
@@ -70,7 +70,7 @@
    <icon></icon>
    <name>Aanpassen als Root</name>
    <unique-id>1389150009142611-4</unique-id>
-   <command>gksu featherpad %f</command>
+   <command>gnome-keyring-daemon -r -d;gksu featherpad %f</command>
    <description>Maak administratieve veranderingen naar tekstbestanden</description>
    <patterns>*</patterns>
    <other-files/>
@@ -102,7 +102,7 @@
    <icon>folder-publicshare</icon>
    <name>Deel een folder op je netwerk</name>
    <unique-id>1399025775400525-1</unique-id>
-   <command>gksu system-config-samba %d</command>
+   <command>gnome-keyring-daemon -r -d;gksu system-config-samba %d</command>
    <description>Configureer bestanddeling</description>
    <patterns>*</patterns>
    <directories/>
