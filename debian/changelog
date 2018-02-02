@@ -1,6 +1,7 @@
 desktop-defaults-xfce-mx17 (0.7.17.4.3) mx; urgency=medium
 
   * changed "as root" functions in thunar custom actions 
+  * updated translations methology
 
  -- dolphin oracle <dolphin@littlebyte>  Sun, 28 Jan 2018 14:30:46 -0500
 

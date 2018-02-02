@@ -22,5 +22,5 @@ synaptic.conf 			root/.synaptic
 rules.d/*               etc/udev/rules.d
 20-thinkpad.conf 	usr/share/X11/xorg.conf.d
 umountnfs-alternative.sh       etc/init.d
-desktop-defaults-mx/*		usr/share/desktop-defaults-mx
-thunar_custom_actions_localize             	usr/local/bin 
+update-thunar-custom-actions            	usr/local/bin 
+thunar_custom_actions_localize              usr/local/bin

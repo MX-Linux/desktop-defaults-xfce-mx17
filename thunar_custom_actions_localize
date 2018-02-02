@@ -1,45 +1,43 @@
 #!/bin/bash
 
+
+#this script is now deprecated as uca.xml is now in multiple languages in one file
+#this script can be run to bring updated uca.xml files into the user's home folder in the event of a system update
+#this script will affect all user's Thunar configurations
+#this is a dummy file to stay compatibile with mx17 live usb
+#it should do nothing
+
 #localize Thunar custom actions for available translations
 
 #Pull locale info from F2 Live Boot Menu Setup
 
-LNG=$(cat /etc/default/locale|grep LANG|cut -d_ -f1|cut -d= -f2)
-echo $LNG
+#LNG=$(cat /etc/default/locale|grep LANG|cut -d_ -f1|cut -d= -f2)
+#echo $LNG
+
+#localize_thunar_custom_actions()
+#{
 
 
+#  cp /etc/skel/.config/Thunar/uca.xml /home/*/.config/Thunar/uca.xml
+#  cp /etc/skel/.config/Thunar/uca.xml /root/.config/Thunar/uca.xml 
 
-
-localize_thunar_custom_actions()
-{
-#copy uca.xml file into appropriate location, use $LNG if exists, or uca_en (english) by default
-
-if [ -e /usr/share/desktop-defaults-mx/uca_$LNG.xml ]; then
-  cp /usr/share/desktop-defaults-mx/uca_$LNG.xml /etc/skel/.config/Thunar/uca.xml
-  cp /usr/share/desktop-defaults-mx/uca_$LNG.xml /home/demo/.config/Thunar/uca.xml
-  cp /usr/share/desktop-defaults-mx/uca_$LNG.xml /root/.config/Thunar/uca.xml ;
-else
-  cp /usr/share/desktop-defaults-mx/uca_en.xml /etc/skel/.config/Thunar/uca.xml
-  cp /usr/share/desktop-defaults-mx/uca_en.xml /home/demo/.config/Thunar/uca.xml
-  cp /usr/share/desktop-defaults-mx/uca_en.xml /root/.config/Thunar/uca.xml 
-fi
-
-}
+#}
 
 #look for a check file and if present exit, otherwise create check file and then parse language
 
 
-main()
-{
-echo $LNG
-if [ -e /etc/thunarCA_localize.chk ]; then
-  echo "thunar custom actions already localized"
-  :
-else
-echo "localizing thunar custom actions"
-  touch /etc/thunarCA_localize.chk
-  localize_thunar_custom_actions
-fi
-}
+#main()
+#{
+#echo $LNG
+#if [ -e /etc/thunarCA_localize.chk ]; then
+  #echo "thunar custom actions already localized"
+  #echo "remove /etc/thunarCA_localize.chk to and rerun to force changes"
+  #:
+#else
+#echo "localizing thunar custom actions"
+  #touch /etc/thunarCA_localize.chk
+  #localize_thunar_custom_actions
+#fi
+#}
 
-main
+exit 0
