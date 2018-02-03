@@ -6,4 +6,17 @@ if [ -x /etc/init.d/umountnfs-alternative.sh ]; then
   update-rc.d umountnfs-alternative.sh defaults >/dev/null 2>&1
 fi
 
+if [ -e /etc/skel/.config/Thunar/uca.xml ]; then
+    rm /etc/skel/.config/Thunar/uca.xml
+fi
+
+cp /usr/share/desktop-defaults-mx/uca.xml /etc/skel/.config/Thunar/uca.xml
+
+if [ -e /root/.config/Thunar/uca.xml ]; then
+    rm /root/.config/Thunar/uca.xml
+fi
+
+cp /usr/share/desktop-defaults-mx/uca.xml /root/.config/Thunar/uca.xml
+
+
 exit 0

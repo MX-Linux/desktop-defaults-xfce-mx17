@@ -1,9 +1,0 @@
-#! /bin/sh
-
-set -e
-
-if [ -x /etc/skel/.config/Thunar/uca.xml ]; then
-  rm /etc/skel/.config/Thunar/uca.xml
-fi
-
-exit 0

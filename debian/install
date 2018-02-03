@@ -24,3 +24,4 @@ rules.d/*               etc/udev/rules.d
 umountnfs-alternative.sh       etc/init.d
 update-thunar-custom-actions            	usr/local/bin 
 thunar_custom_actions_localize              usr/local/bin
+desktop-defaults-mx/*                       usr/share/desktop-defaults-mx
