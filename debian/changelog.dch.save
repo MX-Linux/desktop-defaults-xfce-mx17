@@ -1,8 +1,6 @@
-desktop-defaults-xfce-mx17 (0.7.17.4.6) mx; urgency=medium
+desktop-defaults-xfce-mx17 (0.7.17.4.6) UNRELEASED;  * 
 
-  * fix irrelevant warning message in script
-
- -- dolphin oracle <dolphin@littlebyte>  Sat, 03 Feb 2018 11:14:45 -0500
+ -- dolphin oracle <dolphin@littlebyte>  Sat, 03 Feb 2018 11:14:15 -0500
 
 desktop-defaults-xfce-mx17 (0.7.17.4.5) mx; urgency=medium
 

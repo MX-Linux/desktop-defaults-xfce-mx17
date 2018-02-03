@@ -15,10 +15,9 @@
 
 localize_thunar_custom_actions()
 {
-#copy uca.xml file into appropriate location, use $LNG if exists, or uca_en (english) by default
-
-  cp /etc/skel/.config/Thunar/uca.xml /home/*/.config/Thunar/uca.xml
-  cp /etc/skel/.config/Thunar/uca.xml /root/.config/Thunar/uca.xml 
+#backup exisitng uca.xml file and copy new uca.xml file into appropriate location
+  cp /home/$USER/.config/Thunar/uca.xml /home/$USER/.config/Thunar/uca.xml.$(date +%Y%m%H%M%S)
+  cp /etc/skel/.config/Thunar/uca.xml /home/$USER/.config/Thunar/uca.xml
 
 }
 
@@ -29,9 +28,6 @@ main()
 {
 
 echo "localizing thunar custom actions"
-if [ -e /etc/thunarCA_localize.chk ]; then
-    rm /etc/thunarCA_localize.chk
-fi
 
 localize_thunar_custom_actions
 }
