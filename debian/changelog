@@ -1,3 +1,9 @@
+desktop-defaults-xfce-mx17 (0.7.17.4.7) mxD; urgency=medium
+
+  * added kfd.conf blacklist for amdkfd module 
+
+ -- dolphin oracle <dolphin@littlebyte>  Wed, 07 Feb 2018 19:23:25 -0500
+
 desktop-defaults-xfce-mx17 (0.7.17.4.6) mx; urgency=medium
 
   * fix irrelevant warning message in script
