@@ -1,3 +1,9 @@
+desktop-defaults-xfce-mx17 (0.7.17.4.8) mxD; urgency=medium
+
+  * revised install script to check for directories before copying.
+
+ -- dolphin oracle <dolphin@littlebyte>  Sat, 10 Feb 2018 18:25:13 -0500
+
 desktop-defaults-xfce-mx17 (0.7.17.4.7) mxD; urgency=medium
 
   * added kfd.conf blacklist for amdkfd module 
