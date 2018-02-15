@@ -3,7 +3,9 @@
 set -e
 
 if [ -x /etc/init.d/umountnfs-alternative.sh ]; then
-  update-rc.d umountnfs-alternative.sh defaults >/dev/null 2>&1
+  if [ -x /usr/sbin/update-rc.d ]; then
+    update-rc.d umountnfs-alternative.sh defaults >/dev/null 2>&1
+  fi
 fi
 
 if [ -e /etc/skel/.config/Thunar/uca.xml ]; then

@@ -11,6 +11,10 @@
    <name xml:lang="nl">Commando uitvoeren ...</name>
    <name xml:lang="pt">Executar comando ...</name>
    <name xml:lang="ru">Выполнить команду ...</name>
+   <name xml:lang="am">ትእዛዝ ማስኬጃ ...</name>
+   <name xml:lang="es">Ejecutar orden ...</name>
+   <name xml:lang="sv">Kör kommando ...</name>
+   <name xml:lang="ca">Executa ordre ...</name>
    <unique-id>1391443541044100-3</unique-id>
    <command>xfce4-appfinder --collapsed</command>
    <description>Launch a program</description>
@@ -22,6 +26,9 @@
    <description xml:lang="nl">Programma starten</description>
    <description xml:lang="pt">Abre um programa</description>
    <description xml:lang="ru">Запуск программы</description>
+   <description xml:lang="es">Iniciar un programa</description>
+   <description xml:lang="sv">Starta ett program</description>
+   <description xml:lang="ca">Engega un programa</description>
    <patterns>*</patterns>
    <directories/>
    <audio-files/>
@@ -41,6 +48,9 @@
    <name xml:lang="nl">Open Terminal Hier</name>
    <name xml:lang="pt">Abrir Terminal aqui</name>
    <name xml:lang="ru">Открыть терминал здесь</name>
+   <name xml:lang="es">Abrir Consola aquí</name>
+   <name xml:lang="sv">Öppna Terminal här</name>
+   <name xml:lang="ca">Obre un terminal aquí</name>
    <unique-id>1388590880939619-1</unique-id>
    <command>exo-open --working-directory %f --launch TerminalEmulator</command>
    <description>Launch terminal emulator here</description>
@@ -52,6 +62,9 @@
    <description xml:lang="nl">Start terminal emulator hier</description>
    <description xml:lang="pt">Abre um emulador de terminal aqui</description>
    <description xml:lang="ru">Запуск эмулятора терминала здесь</description>
+   <description xml:lang="es">Iniciar emulador de consola aquí</description>
+   <description xml:lang="sv">Starta Terminalemulator här</description>
+   <description xml:lang="ca">Engega un emulador de terminal aquí</description>
    <patterns>*</patterns>
    <startup-notify/>
    <directories/>
@@ -66,6 +79,9 @@
    <name xml:lang="nl">Open root Thunar hier</name>
    <name xml:lang="pt">Abrir Thunar de raíz aqui</name>
    <name xml:lang="ru">Открыть root терминал здесь</name>
+   <name xml:lang="es">Abrir Thunar como administrador</name>
+   <name xml:lang="sv">Öppna root Thunar här</name>
+   <name xml:lang="ca">Obre Thunar com a administrador aquí</name>
    <unique-id>1391443434179984-1</unique-id>
    <command>gnome-keyring-daemon -r -d;gksu thunar %f</command>
    <description>Open this folder with administrative rights</description>
@@ -76,6 +92,9 @@
    <description xml:lang="nl">Open deze map met administratieve rechten</description>
    <description xml:lang="pt">Abre esta pasta com permissões de administrador</description>
    <description xml:lang="ru">Открытие папки с правами администратора</description>
+   <description xml:lang="es">Abrir este carpeta con permisos del administrador</description>
+   <description xml:lang="sv">Öppna denna mapp med administrativa rättigheter</description>
+   <description xml:lang="ca">Obre aquesta carpeta amb drets d'administrador</description>
    <patterns>*</patterns>
    <directories/>
    <audio-files/>
@@ -94,6 +113,9 @@
    <name xml:lang="nl">Eigenaarschap naar Root</name>
    <name xml:lang="pt">Mudar para administrador (Root)</name>
    <name xml:lang="ru">Передать права Root</name>
+   <name xml:lang="es">Ajustar Root como Dueño</name>
+   <name xml:lang="sv">Ägarskap till Root</name>
+   <name xml:lang="ca">Propietat a root</name>
    <unique-id>1388696949105908-1</unique-id>
    <command>gnome-keyring-daemon -r -d;gksu &quot;chown -R root:root %F&quot;</command>
    <description>Change to administrative permissions </description>
@@ -104,6 +126,9 @@
    <description xml:lang="nl">Verander naar administratieve permissies</description>
    <description xml:lang="pt">Muda para permissões de administrador</description>
    <description xml:lang="ru">Изменение административных разрешений</description>
+   <description xml:lang="es">Cambiar a permisos como Administrado</description>
+   <description xml:lang="sv">Byt till administrativa rättigheter</description>
+   <description xml:lang="ca">Canvia a permisos d'administrador</description>
    <patterns>*</patterns>
    <directories/>
    <audio-files/>
@@ -122,6 +147,9 @@
    <name xml:lang="nl">Eigenaarschap naar gebruiker</name>
    <name xml:lang="pt">Mudar para utilizador normal</name>
    <name xml:lang="ru">Передать права пользователю</name>
+   <name xml:lang="es">Ajustar usuario como Dueño</name>
+   <name xml:lang="sv">Ägarskap till användare</name>
+   <name xml:lang="ca">Propietat a usuari</name>
    <unique-id>1388702559256309-5</unique-id>
    <command>gnome-keyring-daemon -r -d;gksu &quot;chown -R $USER:$USER %F&quot;</command>
    <description>Removes use restrictions</description>
@@ -132,6 +160,9 @@
    <description xml:lang="nl">Verwijdert gebruikersrestricties</description>
    <description xml:lang="pt">Remove as restrições de utilização</description>
    <description xml:lang="ru">Удаление ограничений использования</description>
+   <description xml:lang="es">Remover restricciones de uso</description>
+   <description xml:lang="sv">Tar bort restriktioner för användandet</description>
+   <description xml:lang="ca">Elimina restriccions d'ús</description>
    <patterns>*</patterns>
    <directories/>
    <audio-files/>
@@ -150,6 +181,10 @@
    <name xml:lang="nl">Aanpassen als Root</name>
    <name xml:lang="pt">Editar como administrador (Root)</name>
    <name xml:lang="ru">Редактировать от Root</name>
+   <name xml:lang="am">Root ማረሚያ እንደ</name>
+   <name xml:lang="es">Editar como raiz/root</name>
+   <name xml:lang="sv">Redigera som Root</name>
+   <name xml:lang="ca">Edita com a root</name>
    <unique-id>1389150009142611-4</unique-id>
    <command>gnome-keyring-daemon -r -d;gksu featherpad %f</command>
    <description>Make administrative changes to text files</description>
@@ -160,6 +195,9 @@
    <description xml:lang="nl">Maak administratieve veranderingen naar tekstbestanden</description>
    <description xml:lang="pt">Permite fazer alterações administrativas a ficheiros de texto</description>
    <description xml:lang="ru">Внесение изменений в текстовые файлы</description>
+   <description xml:lang="es">Realizar ajustes administrativos a archivos de textos</description>
+   <description xml:lang="sv">Gör administrativa ändringar i textfiler</description>
+   <description xml:lang="ca">Fa canvis d'administració a fitxers de text</description>
    <patterns>*</patterns>
    <other-files/>
    <text-files/>
@@ -175,6 +213,10 @@
    <name xml:lang="nl">Vind bestanden hier</name>
    <name xml:lang="pt">Procurar ficheiros aqui</name>
    <name xml:lang="ru">Найти файлы здесь</name>
+   <name xml:lang="am">ፋይሎች እዚህ መፈለጊያ</name>
+   <name xml:lang="es">Buscar archivos aquí</name>
+   <name xml:lang="sv">Hitta filer här</name>
+   <name xml:lang="ca">Troba fitxers aquí</name>
    <unique-id>1391015829778456-1</unique-id>
    <command>catfish --path=%f</command>
    <description>Search current folder</description>
@@ -186,6 +228,9 @@
    <description xml:lang="nl">Zoeken in huidige map</description>
    <description xml:lang="pt">Pesquisa na pasta em uso</description>
    <description xml:lang="ru">Поиск в текущей папке</description>
+   <description xml:lang="es">Buscar en carpeta actual</description>
+   <description xml:lang="sv">Sök i aktuell mapp</description>
+   <description xml:lang="ca">Cerca a la carpeta actual</description>
    <patterns>*</patterns>
    <directories/>
    <text-files/>
@@ -201,6 +246,9 @@
    <name xml:lang="nl">Creëer symlink</name>
    <name xml:lang="pt">Criar atalho (symlink)</name>
    <name xml:lang="ru">Создать символьную ссылку</name>
+   <name xml:lang="es">Crear enlace simbólico</name>
+   <name xml:lang="sv">Skapa symbolisk länk</name>
+   <name xml:lang="ca">Crea enllaç simbòlic</name>
    <command>ln -s %f &quot;%n (symlink)&quot;</command>
    <description>Softlink between two files or directories</description>
    <description xml:lang="de">Softlink zwischen zwei Dateien oder Ordnern erstellen</description>
@@ -210,6 +258,9 @@
    <description xml:lang="nl">Softlink tussen twee bestanden of directories</description>
    <description xml:lang="pt">Cria um atalho entre dois ficheiros ou directórios</description>
    <description xml:lang="ru">Ссылка между двумя файлами или директориями</description>
+   <description xml:lang="es">Enlace simbólico entre dos archivos o carpetas</description>
+   <description xml:lang="sv">Symbolisk länk mellan två filer eller kataloger</description>
+   <description xml:lang="ca">Enllaç tou entre dos fitxers o directoris</description>
    <patterns>*</patterns>
    <startup-notify/>
    <directories/>
@@ -228,6 +279,9 @@
    <name xml:lang="nl">Deel een folder op je netwerk</name>
    <name xml:lang="pt">Partilhar uma pasta na rede</name>
    <name xml:lang="ru">Сделать папку общей в вашей сети</name>
+   <name xml:lang="es">Compartir una carpet en su red</name>
+   <name xml:lang="sv">Dela en mapp på ditt nätverk</name>
+   <name xml:lang="ca">Comparteix una carpeta amb la vostra xarxa</name>
    <command>gnome-keyring-daemon -r -d;gksu system-config-samba %d</command>
    <description>Configure file sharing</description>
    <description xml:lang="de">Dateifreigaben konfigurieren</description>
@@ -238,6 +292,9 @@
    <description xml:lang="nl">Configureer bestanddeling</description>
    <description xml:lang="pt">Configurar a partilha de ficheiros</description>
    <description xml:lang="ru">Настройка совместного использования файлов</description>
+   <description xml:lang="es">Configurar la compartition de archivos</description>
+   <description xml:lang="sv">Konfigurera fildelning</description>
+   <description xml:lang="ca">Configura la compartició de fitxers</description>
    <patterns>*</patterns>
    <directories/>
 </action>
@@ -253,6 +310,9 @@
    <name xml:lang="nl">Bereken md5sum</name>
    <name xml:lang="pt">Computar a md5sum</name>
    <name xml:lang="ru">Посчитать md5sum</name>
+   <name xml:lang="es">Computar md5sum</name>
+   <name xml:lang="sv">Beräkna md5sum</name>
+   <name xml:lang="ca">Calcula el md5sum</name>
    <command>yad --info --title=&quot;Check md5sum for %n&quot; --text=&quot;$(md5sum %n)&quot; | yad --width=350 --height=250 --progress --percentage=&quot;50&quot; --auto-kill --auto-close --title=&quot;Checksum utility&quot; --text=&quot;Calculating md5sum for %n&quot;</command>
    <description>Display checksum of ISO</description>
    <description xml:lang="de">Prüfsumme einer ISO anzeigen</description>
@@ -263,6 +323,9 @@
    <description xml:lang="nl">Laat checksum van ISO zien</description>
    <description xml:lang="pt">Exibe a soma de controlo (checksum) da ISO</description>
    <description xml:lang="ru">Показ контрольной суммы ISO</description>
+   <description xml:lang="es">Mostrar valor del md5sum del ISO</description>
+   <description xml:lang="sv">Visa checksum för ISO</description>
+   <description xml:lang="ca">Mostra la suma de verificació d'un ISO</description>
    <patterns>*.iso;*.ISO</patterns>
    <other-files/>
 </action>
@@ -278,6 +341,9 @@
    <name xml:lang="nl">Controleer data integriteit</name>
    <name xml:lang="pt">Verificar a integridade dos dados</name>
    <name xml:lang="ru">Проверка целостности данных</name>
+   <name xml:lang="es">Mostrar valor del md5sum del ISO</name>
+   <name xml:lang="sv">Kontrollera dataintegritet</name>
+   <name xml:lang="ca">Comprova la integritat de les dades</name>
    <command>yad --info --title=&quot;Check md5 for %n&quot; --text=&quot;$(md5sum -c %f)&quot; | yad --progress --percentage=&quot;50&quot; --auto-kill --auto-close --title=&quot;Checksum utility&quot; --text=&quot;Checking md5sum for %n&quot;</command>
    <description>Compare ISO and md5sum files</description>
    <description xml:lang="de">Vergleiche ISO- und md5sum-Dateien</description>
@@ -288,6 +354,9 @@
    <description xml:lang="nl">Vergelijk ISO en md5sum bestanden</description>
    <description xml:lang="pt">Calcula a md5sum da ISO e compara-a com a md5sum constante no ficheiro md5</description>
    <description xml:lang="ru">Сравнение файлов ISO и md5sum</description>
+   <description xml:lang="es">Comparar archivos de ISO y md5sum</description>
+   <description xml:lang="sv">Jämför ISO och md5sum-filer</description>
+   <description xml:lang="ca">Compara els fitxers ISO i md5sum</description>
    <patterns>*.md5;*.md5sum</patterns>
    <other-files/>
    <text-files/>
@@ -302,6 +371,9 @@
     <name xml:lang="nl">Maak Opstartgeluid</name>
     <name xml:lang="pt">Reproduzir Som de Iniciação</name>
     <name xml:lang="ru">Создать звук при входе</name>
+    <name xml:lang="es">Haga sonar el sonido de Inicio</name>
+    <name xml:lang="sv">Gör ett ljud vid Start</name>
+    <name xml:lang="ca">Fes un so d'arrencada</name>
 	<unique-id>1447629663342880-3</unique-id>
 	<command>echo %f &gt;~/.config/startupsound.conf</command>
 	<description>Make selected Startup Sound</description>
@@ -312,6 +384,9 @@
     <description xml:lang="nl">Maak geselecteerd Opstartgeluid</description>
     <description xml:lang="pt">Reproduz o Som de Iniciação seleccionado</description>
     <description xml:lang="ru">Назначение выбранного звука для входа</description>
+    <description xml:lang="es">Tocar el sonido de Inicio seleccionado</description>
+    <description xml:lang="sv">Gör utvalt Startljud</description>
+    <description xml:lang="ca">Fes el so d'arrencada seleccionat</description>
 	<patterns>*</patterns>
 	<audio-files/>
 </action>
@@ -325,6 +400,9 @@
     <name xml:lang="nl">Maak Afmeldgeluid</name>
     <name xml:lang="pt">Reproduzir Som de Saída</name>
     <name xml:lang="ru">Создать звук при выходе</name>
+    <name xml:lang="es">Haga sonar el sonido de Salir</name>
+    <name xml:lang="sv">Gör ett ljud vid Utloggning</name>
+    <name xml:lang="ca">Fes un so de sortida</name>
 	<unique-id>1447629663342880-4</unique-id>
 	<command>echo %f &gt;~/.config/logoutsound.conf</command>
 	<description>Make selected Logout Sound</description>
@@ -335,6 +413,9 @@
     <description xml:lang="nl">Maak geselecteerd Afmeldgeluid</description>
     <description xml:lang="pt">Reproduz o Som de Saída seleccionado</description>
     <description xml:lang="ru">Назначение выбранного звука для выхода</description>
+    <description xml:lang="es">Tocar el sonido de Salir seleccionado</description>
+    <description xml:lang="sv">Gör utvalt Logout ljud</description>
+    <description xml:lang="ca">Fes el so de sortida seleccionat</description>
 	<patterns>*</patterns>
 	<audio-files/>
 </action>

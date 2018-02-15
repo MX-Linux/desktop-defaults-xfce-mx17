@@ -1,4 +1,16 @@
-desktop-defaults-xfce-mx17 (0.7.17.4.8) mxD; urgency=medium
+desktop-defaults-xfce-mx17 (0.7.17.5) mx; urgency=medium
+
+  *  added additional translations
+
+ -- dolphin oracle <dolphin@littlebyte>  Wed, 14 Feb 2018 20:20:25 -0500
+
+desktop-defaults-xfce-mx17 (0.7.17.4.9) mx; urgency=medium
+
+  * added check for update-rc.d 
+
+ -- dolphin oracle <dolphin@littlebyte>  Sat, 10 Feb 2018 21:06:11 -0500
+
+desktop-defaults-xfce-mx17 (0.7.17.4.8) mx; urgency=medium
 
   * revised install script to check for directories before copying.
 
