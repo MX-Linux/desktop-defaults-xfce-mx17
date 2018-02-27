@@ -1,3 +1,9 @@
+desktop-defaults-xfce-mx17 (0.7.17.6) mx; urgency=medium
+
+  * updates for mx17.1 to whiskermenu (added mxpi) 
+
+ -- dolphin oracle <dolphin@littlebyte>  Tue, 27 Feb 2018 17:03:10 -0500
+
 desktop-defaults-xfce-mx17 (0.7.17.5) mx; urgency=medium
 
   *  added additional translations
