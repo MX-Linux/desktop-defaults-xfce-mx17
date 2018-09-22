@@ -1,3 +1,9 @@
+desktop-defaults-xfce-mx17 (0.7.17.9) mx; urgency=medium
+
+  * split into xfce package and common package 
+
+ -- dolphin <dolphin@littlebyte>  Tue, 18 Sep 2018 06:48:30 -0400
+
 desktop-defaults-xfce-mx17 (0.7.17.8) mx; urgency=medium
 
   * revised wallpaper 

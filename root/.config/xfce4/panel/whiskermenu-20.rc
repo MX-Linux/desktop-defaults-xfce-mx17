@@ -31,7 +31,7 @@ show-command-logout=true
 command-menueditor=mx-menu-editor
 show-command-menueditor=true
 command-profile=mugshot
-show-command-profile=false
+show-command-profile=true
 search-actions=5
 
 [action0]

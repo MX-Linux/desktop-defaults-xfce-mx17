@@ -8,5 +8,6 @@ Homepage: http://antix.mepis.org
 
 Package: desktop-defaults-xfce-mx17
 Architecture: all
+Depends: desktop-defaults-mx-common (>= 0.7.17.9), desktop-defaults-mx-applications (>= 0.7.17.9)
 Recommends: lightdm
 Description: desktop defaults for MX-17 Xfce.
