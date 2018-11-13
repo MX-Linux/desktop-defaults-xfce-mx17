@@ -1,3 +1,9 @@
+desktop-defaults-xfce-mx17 (18.11.01) mx; urgency=medium
+
+  * removed change ownership functions from uca.xml
+
+ -- dolphin <dolphin@littlebyte>  Mon, 12 Nov 2018 22:19:55 -0500
+
 desktop-defaults-xfce-mx17 (18.10.01) mx; urgency=medium
 
   * updated translations for thunar custom actions
