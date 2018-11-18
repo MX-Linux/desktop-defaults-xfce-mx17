@@ -227,7 +227,7 @@
    <name xml:lang="ru">Создать символьную ссылку</name>
    <name xml:lang="sv">Skapa symbolisk länk</name>
    <name xml:lang="zh_TW">創造符號連結</name>
-   <command>ln -s %f &quot;%n (symlink)&quot;</command>
+   <command>bash -c &apos;F=&quot;$1&quot;; N=&quot;$2&quot;;  P=$(readlink -f &quot;$PWD&quot;); R=$(readlink -f &quot;$F&quot;); [ &quot;$P&quot; = &quot;$R&quot; ] &amp;&amp; exit; ln -s &quot;$F&quot; &quot;$N (symlink)&quot;&apos; - %f %n</command>
    <description>Softlink between two files or directories</description>
    <description xml:lang="am">Softlink between two files or directories</description>
    <description xml:lang="ca">Enllaç tou entre dos fitxers o directoris</description>
