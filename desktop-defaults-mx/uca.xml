@@ -347,24 +347,24 @@
    <name xml:lang="ru">Проверка целостности данных</name>
    <name xml:lang="sv">Kontrollera dataintegritet</name>
    <name xml:lang="zh_TW">檢查資料完整性</name>
-   <command>yad --info --title=&quot;Check md5 for %n&quot; --text=&quot;$(md5sum -c %f)&quot; | yad --progress --percentage=&quot;50&quot; --auto-kill --auto-close --title=&quot;Checksum utility&quot; --text=&quot;Checking md5sum for %n&quot;</command>
-   <description>Compare ISO and md5sum files</description>
-   <description xml:lang="am">Compare ISO and md5sum files</description>
-   <description xml:lang="ca">Compara els fitxers ISO i md5sum</description>
-   <description xml:lang="de">Vergleiche ISO- und md5sum-Dateien</description>
-   <description xml:lang="el">Συγκρίνετε τα αρχεία ISO και md5sum</description>
-   <description xml:lang="es">Comparar archivos de ISO y md5sum</description>
-   <description xml:lang="fi">Compare ISO and md5sum files</description>
-   <description xml:lang="fr">Comparer les fichiers ISO et somme de contrôle md5</description>
-   <description xml:lang="it">Comparare tra loro i file ISO e md5sum</description>
-   <description xml:lang="lt">Palyginti ISO ir md5sum failus</description>
-   <description xml:lang="nl">Vergelijk ISO en md5sum bestanden</description>
-   <description xml:lang="pt_BR">Calcula a md5sum da ISO e compara-a com a md5sum constante no ficheiro md5</description>
-   <description xml:lang="pt">Calcula a md5sum da ISO e compara-a com a md5sum constante no ficheiro md5</description>
-   <description xml:lang="ru">Сравнение файлов ISO и md5sum</description>
-   <description xml:lang="sv">Jämför ISO och md5sum-filer</description>
-   <description xml:lang="zh_TW">比對 ISO 檔和 md5sum 檔案</description>
-   <patterns>*.md5;*.md5sum</patterns>
+   <command>hashType=&quot;$(echo %n | awk -F &quot;.&quot; &apos;{print $NF}&apos; | sed s/sum//)&quot; &amp;&amp; yad --info --title=&quot;$hashType&quot;&quot; sum result&quot; --width=400 --height=200 --center --text=&quot;\n    $(&quot;$hashType&quot;sum -c %f)&quot;&quot;\n&quot; --button=gtk-close  | yad --progress  --percentage=&quot;50&quot; --auto-kill --auto-close --center --title=&quot;Checksum utility&quot; --text=&quot;    Checking &quot;&quot;$hashType&quot;&quot; sum of    \n&quot;&quot;    &quot;&quot;$(echo %n | rev | cut -f2- -d. | rev)&quot;&quot;    &quot;</command>
+   <description>Compare ISO and hash files</description>
+   <description xml:lang="am">Compare ISO and hash files</description>
+   <description xml:lang="ca">Compara els fitxers ISO i hash</description>
+   <description xml:lang="de">Vergleiche ISO- und hash-Dateien</description>
+   <description xml:lang="el">Συγκρίνετε τα αρχεία ISO και hash</description>
+   <description xml:lang="es">Comparar archivos de ISO y hash</description>
+   <description xml:lang="fi">Compare ISO and hash files</description>
+   <description xml:lang="fr">Comparer les fichiers ISO et somme de contrôle md5/sha</description>
+   <description xml:lang="it">Comparare tra loro i file ISO e hash</description>
+   <description xml:lang="lt">Palyginti ISO ir hash failus</description>
+   <description xml:lang="nl">Vergelijk ISO en hash bestanden</description>
+   <description xml:lang="pt_BR">Calcula a hash da ISO e compara-a com a hash constante no ficheiro md5/sha</description>
+   <description xml:lang="pt">Calcula a hash da ISO e compara-a com a hash constante no ficheiro md5/sha</description>
+   <description xml:lang="ru">Сравнение файлов ISO и hash</description>
+   <description xml:lang="sv">Jämför ISO och hash-filer</description>
+   <description xml:lang="zh_TW">比對 ISO 檔和 hash 檔案</description>
+   <patterns>*.md5;*.md5sum;*.sha;*.shasum;*.sha1;*.sha1sum;*.sha224;*.sha224sum;*.sha256;*.sha256sum;*.sha384;*.sha384sum;*.sha512;*.sha512sum</patterns>
    <other-files/>
    <text-files/>
 </action>
