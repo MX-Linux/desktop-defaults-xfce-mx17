@@ -8,6 +8,7 @@ tumblerd-monitor			usr/local/bin
 blueman-start 			usr/local/bin 
 fbxkb-start 			usr/local/bin 
 mx/*                       	usr/local/share/mx 
+mx-edit-as-root.sh		usr/bin
 thunar_custom_actions_localize              usr/local/bin
 desktop-defaults-mx/*                       usr/share/desktop-defaults-mx
 56xfce4-qtconfig              etc/X11/Xsession.d
