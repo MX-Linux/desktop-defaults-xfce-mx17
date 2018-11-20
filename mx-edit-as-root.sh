@@ -28,6 +28,6 @@ echo $EDITOR
 
 ##launch editor
 
-$EDITOR "$@"
+su-to-root -X -c "$EDITOR $@" 2>/dev/null
 
 exit

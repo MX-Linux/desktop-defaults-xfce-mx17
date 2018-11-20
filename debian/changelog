@@ -1,3 +1,9 @@
+desktop-defaults-xfce-mx17 (18.11.03) mx; urgency=medium
+
+  * modifed uca.xml 
+
+ -- dolphin <dolphinoracle@gmail.com>  Mon, 19 Nov 2018 21:59:49 -0500
+
 desktop-defaults-xfce-mx17 (18.11.02) mx; urgency=medium
 
   * revised edit as root function (fehlix)

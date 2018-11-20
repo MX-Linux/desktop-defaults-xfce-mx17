@@ -147,7 +147,7 @@
    <name xml:lang="sv">Redigera som Root</name>
    <name xml:lang="zh_TW">以 root 身份編輯</name>
    <unique-id>1389150009142611-4</unique-id>
-   <command>gnome-keyring-daemon -r -d;su-to-root -X -c &apos;/usr/bin/mx-edit-as-root.sh %f&apos;</command>
+   <command>gnome-keyring-daemon -r -d;/usr/bin/mx-edit-as-root.sh %f;</command>
    <description>Make administrative changes to text files</description>
    <description xml:lang="am">Make administrative changes to text files</description>
    <description xml:lang="ca">Fa canvis d'administració a fitxers de text</description>
