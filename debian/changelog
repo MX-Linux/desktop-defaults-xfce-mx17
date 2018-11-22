@@ -1,3 +1,9 @@
+desktop-defaults-xfce-mx17 (18.11.04) mx; urgency=medium
+
+  * added .gtk-3.0 folder 
+
+ -- dolphin <dolphinoracle@gmail.com>  Wed, 21 Nov 2018 20:25:25 -0500
+
 desktop-defaults-xfce-mx17 (18.11.03) mx; urgency=medium
 
   * modifed uca.xml 
