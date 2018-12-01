@@ -1,3 +1,9 @@
+desktop-defaults-xfce-mx17 (18.12.01) mx; urgency=medium
+
+  * mx18 beta 1 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Sat, 01 Dec 2018 10:12:11 -0500
+
 desktop-defaults-xfce-mx17 (18.11.05) mx; urgency=medium
 
   * moved gtk-3.0 config folder to .config 
