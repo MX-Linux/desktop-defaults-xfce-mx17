@@ -1,3 +1,9 @@
+desktop-defaults-xfce-mx17 (18.11.05) mx; urgency=medium
+
+  * moved gtk-3.0 config folder to .config 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Tue, 27 Nov 2018 20:38:28 -0500
+
 desktop-defaults-xfce-mx17 (18.11.04) mx; urgency=medium
 
   * added .gtk-3.0 folder 
