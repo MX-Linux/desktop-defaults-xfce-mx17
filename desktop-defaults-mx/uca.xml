@@ -305,25 +305,25 @@
 </action>
 <action>
    <icon></icon>
-   <name>Compute md5sum</name>
+   <name>Compute sha/md5sum</name>
    <unique-id>1426501025005582-4</unique-id>
-   <name xml:lang="am">የ ኮምፒዩተር md5sum</name>
-   <name xml:lang="ca">Calcula el  md5sum</name>
-   <name xml:lang="de">Berechne md5sum</name>
-   <name xml:lang="el">Υπολογίστε το md5sum</name>
-   <name xml:lang="es">Computar md5sum</name>
-   <name xml:lang="fi">Compute md5sum</name>
-   <name xml:lang="fr">Calculer la somme de contrôle md5</name>
-   <name xml:lang="it">Computa l'md5sum</name>
-   <name xml:lang="lt">Apskaičiuoti md5sum</name>
-   <name xml:lang="nl">Bereken md5sum</name>
-   <name xml:lang="pt_BR">Computar a md5sum</name>
-   <name xml:lang="pt">Computar a md5sum</name>
-   <name xml:lang="ru">Посчитать md5sum</name>
-   <name xml:lang="sk">Compute md5sum</name>
-   <name xml:lang="sv">Beräkna md5sum</name>
-   <name xml:lang="zh_TW">計算 md5sum</name>
-   <command>yad --info --title=&quot;Check md5sum for %n&quot; --text=&quot;$(md5sum %n)&quot; | yad --width=350 --height=250 --progress --percentage=&quot;50&quot; --auto-kill --auto-close --title=&quot;Checksum utility&quot; --text=&quot;Calculating md5sum for %n&quot;</command>
+   <name xml:lang="am">የ ኮምፒዩተር sha/md5sum</name>
+   <name xml:lang="ca">Calcula el  sha/md5sum</name>
+   <name xml:lang="de">Berechne sha/md5sum</name>
+   <name xml:lang="el">Υπολογίστε το sha/md5sum</name>
+   <name xml:lang="es">Computar sha/md5sum</name>
+   <name xml:lang="fi">Compute sha/md5sum</name>
+   <name xml:lang="fr">Calculer la somme de contrôle sha/md5sum</name>
+   <name xml:lang="it">Computa l'sha/md5sum</name>
+   <name xml:lang="lt">Apskaičiuoti sha/md5sum</name>
+   <name xml:lang="nl">Bereken sha/md5sum</name>
+   <name xml:lang="pt_BR">Computar a sha/md5sum</name>
+   <name xml:lang="pt">Computar a sha/md5sum</name>
+   <name xml:lang="ru">Посчитать sha/md5sum</name>
+   <name xml:lang="sk">Compute sha/md5sum</name>
+   <name xml:lang="sv">Beräkna sha/md5sum</name>
+   <name xml:lang="zh_TW">計算 sha/md5sum</name>
+   <command>yad --info --title=&quot;Computed checksums for %n&quot; --text=&quot;$(echo; echo -n &apos;md5:     &apos; `md5sum %n | awk &apos;{print $1}&apos;`; echo; echo &apos;sha256:&apos; `sha256sum %n | awk &apos;{print $1}&apos;`)&quot; --height=280 --center --button=gtk-close | yad --width=350 --height=250 --progress --percentage=&quot;50&quot; --auto-kill --auto-close --title=&quot;Checksum utility&quot; --text=&quot;Calculating checksums for %n&quot;  --center --button=gtk-close</command>
    <description>Display checksum of ISO</description>
    <description xml:lang="am">Display checksum of ISO</description>
    <description xml:lang="ca">Mostra la suma de verificació d'un ISO</description>

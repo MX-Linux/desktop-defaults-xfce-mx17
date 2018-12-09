@@ -1,3 +1,10 @@
+desktop-defaults-xfce-mx17 (18.12.04) UNRELEASED; urgency=medium
+
+  * updated defaults
+  * modified hash/checksum function 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Sun, 09 Dec 2018 14:59:23 -0500
+
 desktop-defaults-xfce-mx17 (18.12.03) mx; urgency=medium
 
   * added default wallpaer to this package 
