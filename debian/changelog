@@ -1,9 +1,10 @@
-desktop-defaults-xfce-mx17 (18.12.04) UNRELEASED; urgency=medium
+desktop-defaults-xfce-mx17 (18.12.06) mx; urgency=medium
 
   * updated defaults
   * modified hash/checksum function 
+  * modifed session save
 
- -- Dolphin Oracle <dolphinoracle@gmail.com>  Sun, 09 Dec 2018 14:59:23 -0500
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Sun, 16 Dec 2018 12:08:19 -0500
 
 desktop-defaults-xfce-mx17 (18.12.03) mx; urgency=medium
 
