@@ -206,7 +206,7 @@
    <name xml:lang="it">Trova file qui</name>
    <name xml:lang="lt">Rasti čia failus</name>
    <name xml:lang="nl">Vind bestanden hier</name>
-   <name xml:lang="pl">Znajdź tutaj pliki</name>
+   <name xml:lang="pl">Szukaj tutaj plików</name>
    <name xml:lang="pt_BR">Procurar ficheiros aqui</name>
    <name xml:lang="pt">Procurar ficheiros aqui</name>
    <name xml:lang="ru">Найти файлы здесь</name>
@@ -529,7 +529,7 @@
    <name xml:lang="pl">Zainstaluj pliki Deb</name>
    <name xml:lang="pt_BR">Install Deb Files</name>
    <name xml:lang="pt">Instalar Ficheiros Deb</name>
-   <name xml:lang="ru">Install Deb Files</name>
+   <name xml:lang="ru">Установить Deb файлы</name>
    <name xml:lang="sk">Install Deb Files</name>
    <name xml:lang="sv">Installera Deb Filer</name>
    <name xml:lang="zh_TW">Install Deb Files</name>
@@ -550,7 +550,7 @@
    <description xml:lang="pl">Zainstaluj pakiety Debiana i zależności korzystając z apt</description>
    <description xml:lang="pt_BR">Install deb packages and dependencies with apt</description>
    <description xml:lang="pt">Instalar pacotes deb e respectivas dependências através do apt</description>
-   <description xml:lang="ru">Install deb packages and dependencies with apt</description>
+   <description xml:lang="ru">Установить deb пакеты и зависимости с помощью apt</description>
    <description xml:lang="sk">Install deb packages and dependencies with apt</description>
    <description xml:lang="sv">Installera deb paket och beroenden med apt</description>
    <description xml:lang="zh_TW">Install deb packages and dependencies with apt</description>
